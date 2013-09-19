@@ -48,8 +48,9 @@ namespace TrainingMongoDB.Controllers
 
         //
         // POST: /Course/Create
+        //added ValidateInput(false) to allow for the submission of raw html
 
-        [HttpPost]
+        [HttpPost, ValidateInput(false)]
         //public ActionResult Create(FormCollection collection)
         public ActionResult Create(Course course)
         {
@@ -83,8 +84,9 @@ namespace TrainingMongoDB.Controllers
 
         //
         // POST: /Course/Edit/5
+        //added ValidateInput(false) to allow for the submission of raw html
 
-        [HttpPost]
+        [HttpPost, ValidateInput(false)]
         //public ActionResult Edit(int id, FormCollection collection)
         public ActionResult Edit(Course course)
         {

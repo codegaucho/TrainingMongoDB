@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewBag.Title</title>
 
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cerulean/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/bootstrap/cerulean/bootstrap.min.css")
+    @Styles.Render("~/Content/font-awesome/css/font-awesome.min.css")
 
-    @Scripts.Render("~/bundles/modernizr")
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        @Scripts.Render("~/Content/bootstrap/html5shiv.js")
+        @Scripts.Render("~/Content/bootstrap/respond.min.js")
+    <![endif]-->
+
+    @RenderSection("head", required: false)
 </head>
 <body>
     @RenderPage("Navigator.cshtml")
@@ -31,7 +36,8 @@
     </footer>
 
     @Scripts.Render("~/bundles/jquery")
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    @Scripts.Render("~/Content/bootstrap/bootstrap.min.js")
+
     @RenderSection("scripts", required: false)
 </body>
 </html>

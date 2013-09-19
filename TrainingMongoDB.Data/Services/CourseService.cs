@@ -18,7 +18,7 @@ namespace TrainingMongoDB.Data.Services
                 //.SetSortOrder(SortBy<Course>.Descending(c => c.ReleaseDate))
                 .SetLimit(limit)
                 .SetSkip(skip)
-                .SetFields(Fields<Course>.Include(c => c.Id, c => c.Title));
+                .SetFields(Fields<Course>.Include(c => c.Id, c => c.Title, c=>c.Content));
             //add other fields as we go forward
             //to entity as well
             return courseCursor;

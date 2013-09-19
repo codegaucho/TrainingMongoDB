@@ -20,6 +20,7 @@ namespace TrainingMongoDB.Data.Entities
         //}
 
         public string Title { get; set; }
+        public string Content { get; set; }
 
         //add other fields when we get everything connected
         //also add to the CourseService in Services
