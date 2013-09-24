@@ -204,6 +204,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\tinymce_init.js" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site_original.css" />
     <Content Include="Content\font-awesome\font\fontawesome-webfont.eot" />
@@ -241,6 +242,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Course\Create.cshtml" />
     <Content Include="Views\Shared\Navigator.cshtml" />
+    <Content Include="Views\Course\Index.cshtml" />
+    <Content Include="Views\Course\Details.cshtml" />
+    <Content Include="Views\Course\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
