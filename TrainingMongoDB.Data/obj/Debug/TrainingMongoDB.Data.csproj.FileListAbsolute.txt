@@ -1,9 +1,0 @@
-c:\users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\obj\Debug\TrainingMongoDB.Data.csprojResolveAssemblyReference.cache
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\bin\Debug\TrainingMongoDB.Data.dll
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\bin\Debug\TrainingMongoDB.Data.pdb
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\bin\Debug\MongoDB.Bson.dll
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\bin\Debug\MongoDB.Driver.dll
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\bin\Debug\MongoDB.Bson.xml
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\bin\Debug\MongoDB.Driver.xml
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\obj\Debug\TrainingMongoDB.Data.dll
-C:\Users\tpmurphy\documents\visual studio 2012\Projects\TrainingMongoDB\TrainingMongoDB.Data\obj\Debug\TrainingMongoDB.Data.pdb
