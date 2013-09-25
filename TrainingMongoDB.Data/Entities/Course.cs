@@ -14,10 +14,11 @@ namespace TrainingMongoDB.Data.Entities
     [BsonIgnoreExtraElements]
     public class Course : MongoEntity
     {
-        //public Course()
-        //{
-        //    Sections = new List<Section>();
-        //}
+        /*
+        public Course() {
+            Sections = new List<Section>();
+        }
+         */
 
         public string Title { get; set; }
         public string Content { get; set; }

@@ -5,20 +5,20 @@
 }
 
 <h1>Courses</h1>
-@foreach (var course in Model) { 
+@foreach (var doc in Model) { 
     <div class="well">
         <fieldset>
-            <legend>@Html.DisplayFor(modelItem => course.Title)</legend>
+            <legend>@Html.DisplayFor(modelItem => doc.Title)</legend>
 
             <div class="form-group">
-                @Html.DisplayFor(modelItem => course.Id)
+                @Html.DisplayFor(modelItem => doc.Id)
             </div>
 
 
             <div class="form-group">
                     <button type="button" class="btn btn-danger">Delete</button>
                     <button type="button" class="btn btn-primary">Edit</button>
-                @Html.ActionLink("Details", "Details", new {id = course.Id})
+                @Html.ActionLink("Details", "Details", new {id = doc.Id})
             </div>
        </fieldset>
     </div>

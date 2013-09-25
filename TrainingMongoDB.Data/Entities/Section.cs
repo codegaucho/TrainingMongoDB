@@ -14,15 +14,17 @@ namespace TrainingMongoDB.Data.Entities
     [BsonIgnoreExtraElements]
     public class Section : MongoEntity
     {
-        public Section() 
-        { 
+        /*
+        public Section() { 
             Registrations = new List<Registration>();
         }
+         */
         public ObjectId CourseId { get; set; }
         public string Title { get; set; }
+        public string Content { get; set; }
 
         //add rest of fields when it is all connected
 
-        public List<Registration> Registrations { get; set; }
+        //public List<Registration> Registrations { get; set; }
     }
 }

@@ -56,6 +56,7 @@
     <Compile Include="Services\CourseService.cs" />
     <Compile Include="Services\EntityService.cs" />
     <Compile Include="Services\IEntityService.cs" />
+    <Compile Include="Services\SectionService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

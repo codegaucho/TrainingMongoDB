@@ -4,16 +4,13 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-namespace TrainingMongoDB.Data.Services
-{
+namespace TrainingMongoDB.Data.Services {
     using System.Collections.Generic;
     using Entities;
     using MongoDB.Driver.Builders;
 
-    public class CourseService : EntityService<Course>
-    {
-        public IEnumerable<Course> GetCourseDetails(int limit, int skip)
-        {
+    public class CourseService : EntityService<Course> {
+        public IEnumerable<Course> GetCourseDetails(int limit, int skip) {
             var courseCursor = this.MongoConnectionHandler.MongoCollection.FindAllAs<Course>()
                 //.SetSortOrder(SortBy<Course>.Descending(c => c.ReleaseDate))
                 .SetLimit(limit)
@@ -24,8 +21,7 @@ namespace TrainingMongoDB.Data.Services
             return courseCursor;
         }
 
-        public override void Update(Course entity)
-        {
+        public override void Update(Course entity) {
             //not needed for this example???  I think it prob is needed
         }
     }
